@@ -771,12 +771,13 @@ textarea{
 
     }
     .my_pic{
-        height: 300px;
-        width: 90%;
-        background-size: 380px 470px;
+        height: 350px;
+        width: 70%;
+        background-size: 340px 380px;
+        background-repeat: no-repeat;
     }
     .my_pic:hover{
-        background-size: 390px 480px;
+        background-size: 350px 390px;
     }
     .myName{
         width: 70%;
