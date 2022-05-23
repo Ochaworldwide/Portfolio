@@ -24,7 +24,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #040b14;
     box-sizing: border-box;
 }
 .rounded_profile_pic{
@@ -693,6 +693,7 @@ textarea{
         width: 100%;
         height: 200px;
         position: relative;
+        
     }
     .profile_details{
         width: 100%;
@@ -727,11 +728,12 @@ textarea{
     
     .categories2{
         height: 100px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         position: sticky;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
         top: 0px;
         z-index: 100;
         background-color: #040b14;
@@ -1018,7 +1020,7 @@ textarea{
         flex-direction: row;
         position: sticky;
         align-items: center;
-        top: 1px;
+        top: 0px;
         z-index: 10;
         background-color: #040b14;
         
