@@ -34,7 +34,7 @@ body{
     background-size: cover;
     border: 10px solid rgb(63, 63, 63);
     background-position: center top;
-    background-image: url("assets/images/profile_pic.JPG")
+    background-image: url("assets/images/my_pic.jpg")
 }
 .profile_details p{
     color: rgba(255, 255, 255, 0.7);
@@ -203,13 +203,13 @@ h1,h2,h3,h4,h5,h6{
     width: 35%;
     height: 450px;
     border: 10px solid #242333;
-    background-size: 340px 470px;
+    background-size: 700px 455px;
     background-position: center;
     box-shadow: 0px 0px 10px #040b14;
-    background-image: url("assets/images/profile_pic.JPG");
+    background-image: url("assets/images/my_pic.jpg");
 }
 .my_pic:hover{
-    background-size: 360px 490px;
+    background-size: 720px 460px;
     background-position: center;
     transition: 1s;
     cursor: zoom-in;
@@ -634,6 +634,7 @@ h1,h2,h3,h4,h5,h6{
 }
 input{
     width: 70%;
+    height: 50px;
     align-self: flex-end;
     outline: none;
     
@@ -679,6 +680,10 @@ textarea{
 .copyright >span{
     color: #095b81;
 }
+
+
+
+
 
 @media only screen and (max-width:550px) and (min-width:0px){
     /* for mobile */
@@ -773,13 +778,13 @@ textarea{
 
     }
     .my_pic{
-        height: 350px;
+        height: 300px;
         width: 70%;
-        background-size: 340px 380px;
+        background-size: 450px 300px;
         background-repeat: no-repeat;
     }
     .my_pic:hover{
-        background-size: 350px 390px;
+        background-size: 460px 310px;
     }
     .myName{
         width: 70%;
@@ -1055,10 +1060,11 @@ textarea{
     }
     .my_pic{
         width: 50%;
-        background-size: 405px 470px;
+        height: 350px;
+        background-size: 490px 350px;
     }
     .my_pic:hover{
-        background-size: 410px 480px;
+        background-size: 500px 360px;
     }
     .myName{
         width: 50%;
