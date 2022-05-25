@@ -30,10 +30,11 @@ body{
 .rounded_profile_pic{
     width: 40%;
     height: 130px;
-    border-radius: 70px;
+    
     background-size: cover;
     border: 10px solid rgb(63, 63, 63);
     background-position: center;
+    
     background-image: url("assets/images/my_pic.jpg")
 }
 .profile_details p{
@@ -746,10 +747,11 @@ textarea{
         justify-content: center;
     }
     .cat_class i{
-        width:20%;
+        
         font-size: 60%;
     }
     .cat_class p{
+        margin-left: 5px;
         font-size: 70%;
     }
     
