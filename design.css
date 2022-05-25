@@ -1052,6 +1052,9 @@ textarea{
     .cat_class i{
         width: 20%;
     }
+    .cat_class p{
+        margin-left: 20px;
+    }
     
 
     /* right side div */
