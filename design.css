@@ -698,6 +698,7 @@ textarea{
 
 
 @media only screen and (max-width:550px) and (min-width:0px){
+    
     /* for mobile */
 
     
@@ -794,7 +795,6 @@ textarea{
         height: 310px;
         width: 70%;
         background-size: 370px 310px;
-        /* background-size: 450px 455px; */
         background-repeat: no-repeat;
     }
     .my_pic:hover{
