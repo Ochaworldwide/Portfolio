@@ -28,10 +28,10 @@ export default function Skills(){
 		<Page>
 			<div id="skills-panel" className="py-10 mt-5 h-full flex flex-col justify-between">
 				<div className="flex items-center flex-col sm:md:flex-row sm:md:h-[20rem] justify-between">
-					<div className=" w-full h-full pb-20">
+					{/* <div className=" w-full h-full pb-20">
 						<h1 className="text-main font-bold text-2xl">Backend</h1>
 						<SkillSet set={skills.backend}/>	
-					</div>
+					</div> */}
 					<div className=" w-full h-full pb-20">
 						<h1 className="text-main font-bold text-2xl">Frontend</h1>
 						<SkillSet set={skills.frontend}/>

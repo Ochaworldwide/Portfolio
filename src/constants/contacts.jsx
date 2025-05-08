@@ -12,13 +12,29 @@ import { FaPhone } from "react-icons/fa";
 
 
 const contacts = [
-	{icon: <SiGmail />, value: <a href="mailto://praiseike123@gmail.com">praiseike123@gmail.com</a>},
-	{icon: <SiGithub/>, value: <a href="https://github.com/praiseike">github.com/praiseike </a>},
-	{icon: <SiTwitter/>, value: <a href="https://twitter.com/Praise89897380">@Praise89897380</a>},
-	{icon: <SiLinkedin />, value: <a href="https://www.linkedin.com/in/ibangha-ike-803ab5195">Ibangha Ike</a>},
-	{icon: <SiTelegram/>, value: "@praise_ike"},
-	{icon: <SiWhatsapp/>, value: "+234 9066853578"},
-	{icon: <FaPhone/>, value: "+234 8032334874"},
-]
+  {
+    icon: <SiGmail />,
+    value: (
+      <a href="mailto://lazarusgabriel000@gmail.com">lazarusgabriel000@gmail.com</a>
+    ),
+  },
+  {
+    icon: <SiGithub />,
+    value: <a href="https://github.com/Ochaworldwide">github.com/Ochaworldwide </a>,
+  },
+  {
+    icon: <SiTwitter />,
+    value: <a href="https://twitter.com/iam_westempire">iam_westempire</a>,
+  },
+  {
+    icon: <SiLinkedin />,
+    value: (
+      <a href="https://www.linkedin.com/in/gabriel-lazarus/">Lazarus Gabriel</a>
+    ),
+  },
+  { icon: <SiTelegram />, value: "@westempiretech" },
+  { icon: <SiWhatsapp />, value: "+234 8141233346" },
+  { icon: <FaPhone />, value: "+234 9034962596" },
+];
 
 export default contacts;

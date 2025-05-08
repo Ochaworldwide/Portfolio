@@ -21,7 +21,7 @@ export default function Projects(){
 							<div  className="w-[17rem] border border-[#000000aa]" >
 								<img src={image} className="rounded-t" alt="digi essentials"/>
 								<div class="bg-[#000000aa]">
-									<p className="text-xs text-gray-200 px-2  w-fit rounded-lg pt-2 text-main">{title}</p>
+									<p className="text-xs px-2  w-fit rounded-lg pt-2 text-main">{title}</p>
 									<div className="text-xs text-gray-200 px-2  w-fit rounded-lg py-1">{status}</div>
 								</div>
 							</div>
